@@ -1,0 +1,21 @@
+Script started on 2019-03-24 23:40:17-0500
+]0;true-mex@oliver-laptop: ~/Desktop/Unix/Projects/3[01;32mtrue-mex@oliver-laptop[00m:[01;34m~/Desktop/Unix/Projects/3[00m$ g++ Assignment3.cpp -o assign3 [A
+]0;true-mex@oliver-laptop: ~/Desktop/Unix/Projects/3[01;32mtrue-mex@oliver-laptop[00m:[01;34m~/Desktop/Unix/Projects/3[00m$ chmod +x assign3
+]0;true-mex@oliver-laptop: ~/Desktop/Unix/Projects/3[01;32mtrue-mex@oliver-laptop[00m:[01;34m~/Desktop/Unix/Projects/3[00m$ ./assign3 
+$ ls -l
+total 156
+-rwxr-xr-x 1 oliver oliver  38648 Mar 24 23:40 assign3
+-rw-r--r-- 1 oliver oliver   4957 Mar 24 23:32 Assignment3.cpp
+-rw-r--r-- 1 oliver oliver 106496 Mar 24 23:37 assignment_3.typescript
+-rw-r--r-- 1 oliver oliver      0 Mar 24 23:40 assignment3.typescript
+-rw-r--r-- 1 oliver oliver   2264 Mar 17 22:17 instructions.txt
+$ clear; cl -l
+Segmentation fault (core dumped)
+]0;true-mex@oliver-laptop: ~/Desktop/Unix/Projects/3[01;32mtrue-mex@oliver-laptop[00m:[01;34m~/Desktop/Unix/Projects/3[00m$ ./assign3 
+$ ls | grep "^d" | e wc -l
+0
+$ 	e exit
+]0;true-mex@oliver-laptop: ~/Desktop/Unix/Projects/3[01;32mtrue-mex@oliver-laptop[00m:[01;34m~/Desktop/Unix/Projects/3[00m$ exit
+exit
+
+Script done on 2019-03-24 23:42:09-0500

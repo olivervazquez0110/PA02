@@ -1,0 +1,707 @@
+Script started on 2019-03-24 23:30:36-0500
+]0;true-mex@oliver-laptop: ~/Desktop/Unix/Projects/3[01;32mtrue-mex@oliver-laptop[00m:[01;34m~/Desktop/Unix/Projects/3[00m$ gcc as[K[KAssignment3.cpp -o assignment_3.[K
+/tmp/ccUiZ16e.o: In function `main':
+Assignment3.cpp:(.text+0x25): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string()'
+Assignment3.cpp:(.text+0x47): undefined reference to `std::cout'
+Assignment3.cpp:(.text+0x4c): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+Assignment3.cpp:(.text+0x5a): undefined reference to `std::cin'
+Assignment3.cpp:(.text+0x5f): undefined reference to `std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+Assignment3.cpp:(.text+0xbd): undefined reference to `operator new[](unsigned long)'
+Assignment3.cpp:(.text+0xc4): undefined reference to `__cxa_throw_bad_array_new_length'
+Assignment3.cpp:(.text+0x138): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::c_str() const'
+Assignment3.cpp:(.text+0x2c3): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+Assignment3.cpp:(.text+0x2ed): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::c_str() const'
+Assignment3.cpp:(.text+0x331): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::c_str() const'
+Assignment3.cpp:(.text+0x35c): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::c_str() const'
+Assignment3.cpp:(.text+0x390): undefined reference to `std::cout'
+Assignment3.cpp:(.text+0x395): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+Assignment3.cpp:(.text+0x39f): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)'
+Assignment3.cpp:(.text+0x3aa): undefined reference to `std::ostream::operator<<(std::ostream& (*)(std::ostream&))'
+Assignment3.cpp:(.text+0x3b6): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+Assignment3.cpp:(.text+0x46f): undefined reference to `std::cout'
+Assignment3.cpp:(.text+0x474): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+Assignment3.cpp:(.text+0x47e): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)'
+Assignment3.cpp:(.text+0x489): undefined reference to `std::ostream::operator<<(std::ostream& (*)(std::ostream&))'
+Assignment3.cpp:(.text+0x4eb): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size() const'
+Assignment3.cpp:(.text+0x510): undefined reference to `operator delete(void*, unsigned long)'
+Assignment3.cpp:(.text+0x51c): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+Assignment3.cpp:(.text+0x54d): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+Assignment3.cpp:(.text+0x570): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+Assignment3.cpp:(.text+0x595): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+Assignment3.cpp:(.text+0x5ba): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+/tmp/ccUiZ16e.o: In function `readCommand(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)':
+Assignment3.cpp:(.text+0x621): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size() const'
+Assignment3.cpp:(.text+0x64d): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator[](unsigned long)'
+Assignment3.cpp:(.text+0x6ca): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::substr(unsigned long, unsigned long) const'
+Assignment3.cpp:(.text+0x6e5): undefined reference to `std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >::basic_stringstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode)'
+Assignment3.cpp:(.text+0x6f4): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+Assignment3.cpp:(.text+0x711): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::erase(unsigned long, unsigned long)'
+Assignment3.cpp:(.text+0x720): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string()'
+Assignment3.cpp:(.text+0x748): undefined reference to `std::basic_istream<char, std::char_traits<char> >& std::operator>><char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+Assignment3.cpp:(.text+0x75d): undefined reference to `std::basic_ios<char, std::char_traits<char> >::operator bool() const'
+Assignment3.cpp:(.text+0x7b3): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+Assignment3.cpp:(.text+0x7c2): undefined reference to `std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_stringstream()'
+Assignment3.cpp:(.text+0x7ed): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+Assignment3.cpp:(.text+0x819): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+Assignment3.cpp:(.text+0x82d): undefined reference to `std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_stringstream()'
+/tmp/ccUiZ16e.o: In function `readSpecialChar(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)':
+Assignment3.cpp:(.text+0x873): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string()'
+Assignment3.cpp:(.text+0x88c): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size() const'
+Assignment3.cpp:(.text+0x8af): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator[](unsigned long)'
+Assignment3.cpp:(.text+0x8ce): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(char const*)'
+Assignment3.cpp:(.text+0x8e8): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator[](unsigned long)'
+Assignment3.cpp:(.text+0x907): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(char const*)'
+Assignment3.cpp:(.text+0x921): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator[](unsigned long)'
+Assignment3.cpp:(.text+0x945): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator[](unsigned long)'
+Assignment3.cpp:(.text+0x964): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(char const*)'
+Assignment3.cpp:(.text+0x97c): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(char const*)'
+Assignment3.cpp:(.text+0x996): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator[](unsigned long)'
+Assignment3.cpp:(.text+0x9b5): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(char const*)'
+Assignment3.cpp:(.text+0x9cf): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator[](unsigned long)'
+Assignment3.cpp:(.text+0x9eb): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator[](unsigned long)'
+Assignment3.cpp:(.text+0xa15): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(char const*)'
+Assignment3.cpp:(.text+0xa2c): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator[](unsigned long)'
+Assignment3.cpp:(.text+0xa4e): undefined reference to `std::allocator<char>::allocator()'
+Assignment3.cpp:(.text+0xa65): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)'
+Assignment3.cpp:(.text+0xa71): undefined reference to `std::allocator<char>::~allocator()'
+Assignment3.cpp:(.text+0xa8e): undefined reference to `std::allocator<char>::allocator()'
+Assignment3.cpp:(.text+0xaa5): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)'
+Assignment3.cpp:(.text+0xab1): undefined reference to `std::allocator<char>::~allocator()'
+Assignment3.cpp:(.text+0xacd): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::erase(unsigned long, unsigned long)'
+Assignment3.cpp:(.text+0xae0): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)'
+Assignment3.cpp:(.text+0xaec): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+Assignment3.cpp:(.text+0xb10): undefined reference to `std::allocator<char>::~allocator()'
+Assignment3.cpp:(.text+0xb21): undefined reference to `std::allocator<char>::~allocator()'
+Assignment3.cpp:(.text+0xb32): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+/tmp/ccUiZ16e.o: In function `__static_initialization_and_destruction_0(int, int)':
+Assignment3.cpp:(.text+0xb72): undefined reference to `std::ios_base::Init::Init()'
+Assignment3.cpp:(.text+0xb87): undefined reference to `std::ios_base::Init::~Init()'
+/tmp/ccUiZ16e.o: In function `bool std::operator==<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*)':
+Assignment3.cpp:(.text._ZSteqIcSt11char_traitsIcESaIcEEbRKNSt7__cxx1112basic_stringIT_T0_T1_EEPKS5_[_ZSteqIcSt11char_traitsIcESaIcEEbRKNSt7__cxx1112basic_stringIT_T0_T1_EEPKS5_]+0x1f): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::compare(char const*) const'
+/tmp/ccUiZ16e.o: In function `void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+Assignment3.cpp:(.text._ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_realloc_insertIJRKS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_[_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_realloc_insertIJRKS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_]+0x1ec): undefined reference to `__cxa_begin_catch'
+Assignment3.cpp:(.text._ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_realloc_insertIJRKS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_[_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_realloc_insertIJRKS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_]+0x254): undefined reference to `__cxa_rethrow'
+Assignment3.cpp:(.text._ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_realloc_insertIJRKS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_[_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_realloc_insertIJRKS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_]+0x25c): undefined reference to `__cxa_end_catch'
+/tmp/ccUiZ16e.o: In function `void __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::construct<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+Assignment3.cpp:(.text._ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE9constructIS6_JRKS6_EEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE9constructIS6_JRKS6_EEEvPT_DpOT0_]+0x48): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/tmp/ccUiZ16e.o: In function `std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_check_len(unsigned long, char const*) const':
+Assignment3.cpp:(.text._ZNKSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12_M_check_lenEmPKc[_ZNKSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12_M_check_lenEmPKc]+0x5b): undefined reference to `std::__throw_length_error(char const*)'
+/tmp/ccUiZ16e.o: In function `void __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::destroy<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*)':
+Assignment3.cpp:(.text._ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE7destroyIS6_EEvPT_[_ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE7destroyIS6_EEvPT_]+0x18): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+/tmp/ccUiZ16e.o: In function `__gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::deallocate(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, unsigned long)':
+Assignment3.cpp:(.text._ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE10deallocateEPS6_m[_ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE10deallocateEPS6_m]+0x1c): undefined reference to `operator delete(void*)'
+/tmp/ccUiZ16e.o: In function `void std::_Destroy<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*)':
+Assignment3.cpp:(.text._ZSt8_DestroyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEvPT_[_ZSt8_DestroyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEvPT_]+0x14): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+/tmp/ccUiZ16e.o: In function `__gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::allocate(unsigned long, void const*)':
+Assignment3.cpp:(.text._ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE8allocateEmPKv[_ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE8allocateEmPKv]+0x2c): undefined reference to `std::__throw_bad_alloc()'
+Assignment3.cpp:(.text._ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE8allocateEmPKv[_ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE8allocateEmPKv]+0x3c): undefined reference to `operator new(unsigned long)'
+/tmp/ccUiZ16e.o: In function `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*>(std::move_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*>, std::move_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*)':
+Assignment3.cpp:(.text._ZNSt20__uninitialized_copyILb0EE13__uninit_copyISt13move_iteratorIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEES9_EET0_T_SC_SB_[_ZNSt20__uninitialized_copyILb0EE13__uninit_copyISt13move_iteratorIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEES9_EET0_T_SC_SB_]+0x77): undefined reference to `__cxa_begin_catch'
+Assignment3.cpp:(.text._ZNSt20__uninitialized_copyILb0EE13__uninit_copyISt13move_iteratorIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEES9_EET0_T_SC_SB_[_ZNSt20__uninitialized_copyILb0EE13__uninit_copyISt13move_iteratorIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEES9_EET0_T_SC_SB_]+0x8f): undefined reference to `__cxa_rethrow'
+Assignment3.cpp:(.text._ZNSt20__uninitialized_copyILb0EE13__uninit_copyISt13move_iteratorIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEES9_EET0_T_SC_SB_[_ZNSt20__uninitialized_copyILb0EE13__uninit_copyISt13move_iteratorIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEES9_EET0_T_SC_SB_]+0x97): undefined reference to `__cxa_end_catch'
+/tmp/ccUiZ16e.o: In function `void std::_Construct<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)':
+Assignment3.cpp:(.text._ZSt10_ConstructINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEJS5_EEvPT_DpOT0_[_ZSt10_ConstructINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEJS5_EEvPT_DpOT0_]+0x3d): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)'
+/tmp/ccUiZ16e.o:(.data.rel.local.DW.ref.__gxx_personality_v0[DW.ref.__gxx_personality_v0]+0x0): undefined reference to `__gxx_personality_v0'
+collect2: error: ld returned 1 exit status
+]0;true-mex@oliver-laptop: ~/Desktop/Unix/Projects/3[01;32mtrue-mex@oliver-laptop[00m:[01;34m~/Desktop/Unix/Projects/3[00m$ gcc Assignment3.cpp -o assign[K[K[K[K[K[Kassign3
+/tmp/ccjaYGRo.o: In function `main':
+Assignment3.cpp:(.text+0x25): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string()'
+Assignment3.cpp:(.text+0x47): undefined reference to `std::cout'
+Assignment3.cpp:(.text+0x4c): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+Assignment3.cpp:(.text+0x5a): undefined reference to `std::cin'
+Assignment3.cpp:(.text+0x5f): undefined reference to `std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+Assignment3.cpp:(.text+0xbd): undefined reference to `operator new[](unsigned long)'
+Assignment3.cpp:(.text+0xc4): undefined reference to `__cxa_throw_bad_array_new_length'
+Assignment3.cpp:(.text+0x138): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::c_str() const'
+Assignment3.cpp:(.text+0x2c3): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+Assignment3.cpp:(.text+0x2ed): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::c_str() const'
+Assignment3.cpp:(.text+0x331): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::c_str() const'
+Assignment3.cpp:(.text+0x35c): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::c_str() const'
+Assignment3.cpp:(.text+0x390): undefined reference to `std::cout'
+Assignment3.cpp:(.text+0x395): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+Assignment3.cpp:(.text+0x39f): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)'
+Assignment3.cpp:(.text+0x3aa): undefined reference to `std::ostream::operator<<(std::ostream& (*)(std::ostream&))'
+Assignment3.cpp:(.text+0x3b6): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+Assignment3.cpp:(.text+0x46f): undefined reference to `std::cout'
+Assignment3.cpp:(.text+0x474): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+Assignment3.cpp:(.text+0x47e): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)'
+Assignment3.cpp:(.text+0x489): undefined reference to `std::ostream::operator<<(std::ostream& (*)(std::ostream&))'
+Assignment3.cpp:(.text+0x4eb): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size() const'
+Assignment3.cpp:(.text+0x510): undefined reference to `operator delete(void*, unsigned long)'
+Assignment3.cpp:(.text+0x51c): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+Assignment3.cpp:(.text+0x54d): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+Assignment3.cpp:(.text+0x570): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+Assignment3.cpp:(.text+0x595): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+Assignment3.cpp:(.text+0x5ba): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+/tmp/ccjaYGRo.o: In function `readCommand(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)':
+Assignment3.cpp:(.text+0x621): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size() const'
+Assignment3.cpp:(.text+0x64d): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator[](unsigned long)'
+Assignment3.cpp:(.text+0x6ca): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::substr(unsigned long, unsigned long) const'
+Assignment3.cpp:(.text+0x6e5): undefined reference to `std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >::basic_stringstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode)'
+Assignment3.cpp:(.text+0x6f4): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+Assignment3.cpp:(.text+0x711): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::erase(unsigned long, unsigned long)'
+Assignment3.cpp:(.text+0x720): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string()'
+Assignment3.cpp:(.text+0x748): undefined reference to `std::basic_istream<char, std::char_traits<char> >& std::operator>><char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)'
+Assignment3.cpp:(.text+0x75d): undefined reference to `std::basic_ios<char, std::char_traits<char> >::operator bool() const'
+Assignment3.cpp:(.text+0x7b3): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+Assignment3.cpp:(.text+0x7c2): undefined reference to `std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_stringstream()'
+Assignment3.cpp:(.text+0x7ed): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+Assignment3.cpp:(.text+0x819): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+Assignment3.cpp:(.text+0x82d): undefined reference to `std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_stringstream()'
+/tmp/ccjaYGRo.o: In function `readSpecialChar(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)':
+Assignment3.cpp:(.text+0x873): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string()'
+Assignment3.cpp:(.text+0x88c): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size() const'
+Assignment3.cpp:(.text+0x8af): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator[](unsigned long)'
+Assignment3.cpp:(.text+0x8ce): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(char const*)'
+Assignment3.cpp:(.text+0x8e8): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator[](unsigned long)'
+Assignment3.cpp:(.text+0x907): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(char const*)'
+Assignment3.cpp:(.text+0x921): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator[](unsigned long)'
+Assignment3.cpp:(.text+0x945): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator[](unsigned long)'
+Assignment3.cpp:(.text+0x964): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(char const*)'
+Assignment3.cpp:(.text+0x97c): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(char const*)'
+Assignment3.cpp:(.text+0x996): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator[](unsigned long)'
+Assignment3.cpp:(.text+0x9b5): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(char const*)'
+Assignment3.cpp:(.text+0x9cf): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator[](unsigned long)'
+Assignment3.cpp:(.text+0x9eb): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator[](unsigned long)'
+Assignment3.cpp:(.text+0xa15): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(char const*)'
+Assignment3.cpp:(.text+0xa2c): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator[](unsigned long)'
+Assignment3.cpp:(.text+0xa4e): undefined reference to `std::allocator<char>::allocator()'
+Assignment3.cpp:(.text+0xa65): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)'
+Assignment3.cpp:(.text+0xa71): undefined reference to `std::allocator<char>::~allocator()'
+Assignment3.cpp:(.text+0xa8e): undefined reference to `std::allocator<char>::allocator()'
+Assignment3.cpp:(.text+0xaa5): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)'
+Assignment3.cpp:(.text+0xab1): undefined reference to `std::allocator<char>::~allocator()'
+Assignment3.cpp:(.text+0xacd): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::erase(unsigned long, unsigned long)'
+Assignment3.cpp:(.text+0xae0): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)'
+Assignment3.cpp:(.text+0xaec): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+Assignment3.cpp:(.text+0xb10): undefined reference to `std::allocator<char>::~allocator()'
+Assignment3.cpp:(.text+0xb21): undefined reference to `std::allocator<char>::~allocator()'
+Assignment3.cpp:(.text+0xb32): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+/tmp/ccjaYGRo.o: In function `__static_initialization_and_destruction_0(int, int)':
+Assignment3.cpp:(.text+0xb72): undefined reference to `std::ios_base::Init::Init()'
+Assignment3.cpp:(.text+0xb87): undefined reference to `std::ios_base::Init::~Init()'
+/tmp/ccjaYGRo.o: In function `bool std::operator==<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*)':
+Assignment3.cpp:(.text._ZSteqIcSt11char_traitsIcESaIcEEbRKNSt7__cxx1112basic_stringIT_T0_T1_EEPKS5_[_ZSteqIcSt11char_traitsIcESaIcEEbRKNSt7__cxx1112basic_stringIT_T0_T1_EEPKS5_]+0x1f): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::compare(char const*) const'
+/tmp/ccjaYGRo.o: In function `void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+Assignment3.cpp:(.text._ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_realloc_insertIJRKS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_[_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_realloc_insertIJRKS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_]+0x1ec): undefined reference to `__cxa_begin_catch'
+Assignment3.cpp:(.text._ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_realloc_insertIJRKS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_[_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_realloc_insertIJRKS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_]+0x254): undefined reference to `__cxa_rethrow'
+Assignment3.cpp:(.text._ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_realloc_insertIJRKS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_[_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_realloc_insertIJRKS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_]+0x25c): undefined reference to `__cxa_end_catch'
+/tmp/ccjaYGRo.o: In function `void __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::construct<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+Assignment3.cpp:(.text._ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE9constructIS6_JRKS6_EEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE9constructIS6_JRKS6_EEEvPT_DpOT0_]+0x48): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/tmp/ccjaYGRo.o: In function `std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_check_len(unsigned long, char const*) const':
+Assignment3.cpp:(.text._ZNKSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12_M_check_lenEmPKc[_ZNKSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12_M_check_lenEmPKc]+0x5b): undefined reference to `std::__throw_length_error(char const*)'
+/tmp/ccjaYGRo.o: In function `void __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::destroy<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*)':
+Assignment3.cpp:(.text._ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE7destroyIS6_EEvPT_[_ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE7destroyIS6_EEvPT_]+0x18): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+/tmp/ccjaYGRo.o: In function `__gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::deallocate(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, unsigned long)':
+Assignment3.cpp:(.text._ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE10deallocateEPS6_m[_ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE10deallocateEPS6_m]+0x1c): undefined reference to `operator delete(void*)'
+/tmp/ccjaYGRo.o: In function `void std::_Destroy<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*)':
+Assignment3.cpp:(.text._ZSt8_DestroyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEvPT_[_ZSt8_DestroyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEvPT_]+0x14): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+/tmp/ccjaYGRo.o: In function `__gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::allocate(unsigned long, void const*)':
+Assignment3.cpp:(.text._ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE8allocateEmPKv[_ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE8allocateEmPKv]+0x2c): undefined reference to `std::__throw_bad_alloc()'
+Assignment3.cpp:(.text._ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE8allocateEmPKv[_ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE8allocateEmPKv]+0x3c): undefined reference to `operator new(unsigned long)'
+/tmp/ccjaYGRo.o: In function `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*>(std::move_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*>, std::move_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*)':
+Assignment3.cpp:(.text._ZNSt20__uninitialized_copyILb0EE13__uninit_copyISt13move_iteratorIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEES9_EET0_T_SC_SB_[_ZNSt20__uninitialized_copyILb0EE13__uninit_copyISt13move_iteratorIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEES9_EET0_T_SC_SB_]+0x77): undefined reference to `__cxa_begin_catch'
+Assignment3.cpp:(.text._ZNSt20__uninitialized_copyILb0EE13__uninit_copyISt13move_iteratorIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEES9_EET0_T_SC_SB_[_ZNSt20__uninitialized_copyILb0EE13__uninit_copyISt13move_iteratorIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEES9_EET0_T_SC_SB_]+0x8f): undefined reference to `__cxa_rethrow'
+Assignment3.cpp:(.text._ZNSt20__uninitialized_copyILb0EE13__uninit_copyISt13move_iteratorIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEES9_EET0_T_SC_SB_[_ZNSt20__uninitialized_copyILb0EE13__uninit_copyISt13move_iteratorIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEES9_EET0_T_SC_SB_]+0x97): undefined reference to `__cxa_end_catch'
+/tmp/ccjaYGRo.o: In function `void std::_Construct<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)':
+Assignment3.cpp:(.text._ZSt10_ConstructINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEJS5_EEvPT_DpOT0_[_ZSt10_ConstructINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEJS5_EEvPT_DpOT0_]+0x3d): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)'
+/tmp/ccjaYGRo.o:(.data.rel.local.DW.ref.__gxx_personality_v0[DW.ref.__gxx_personality_v0]+0x0): undefined reference to `__gxx_personality_v0'
+collect2: error: ld returned 1 exit status
+]0;true-mex@oliver-laptop: ~/Desktop/Unix/Projects/3[01;32mtrue-mex@oliver-laptop[00m:[01;34m~/Desktop/Unix/Projects/3[00m$ vim Assignment3.cpp 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;46r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[46;1H"Assignment3.cpp" 215L, 4957C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[38;5;130m  1 [m[34m// Oliver Vazquez[m
+[38;5;130m  2 [m[34m// CS 3377 Unix S19[m
+[38;5;130m  3 [m[34m// 24 March 2019[m
+[38;5;130m  4 
+  5 [m[35m#include [m[31m<iostream>[m
+[38;5;130m  6 [m[35m#include [m[31m<string>[m
+[38;5;130m  7 [m[35m#include [m[31m<sstream>[m
+[38;5;130m  8 [m[35m#include [m[31m<vector>[m
+[38;5;130m  9 [m[35m#include [m[31m<cstdlib>[m
+[38;5;130m 10 [m[35m#include [m[31m<unistd.h>[m
+[38;5;130m 11 [m[35m#include [m[31m<sys/wait.h>[m
+[38;5;130m 12 [m[35m#include [m[31m<fcntl.h>[m
+[38;5;130m 13 
+ 14 using[m [32mnamespace[m std;
+[38;5;130m 15 
+ 16 [m[34m/*[m
+[38;5;130m 17 [m[34m * Function prototypes[m
+[38;5;130m 18 [m[34m */[m
+[38;5;130m 19 [mvector<string> readCommand(string &line);
+[38;5;130m 20 [mstring readSpecialChar(string &line);
+[38;5;130m 21 
+ 22 [m[34m/*[m
+[38;5;130m 23 [m[34m * Main Function[m
+[38;5;130m 24 [m[34m */[m
+[38;5;130m 25 [m[32mint[m main() {
+[38;5;130m 26 [m[8C[34m//Read from user one line at a time[m
+[38;5;130m 27 [m[8Cstring line;
+[38;5;130m 28 [m[8C[32mbool[m loop = [31mtrue[m;
+[38;5;130m 29 [8Cwhile[m (loop) {
+[38;5;130m 30 [m[16C[34m//Get input[m
+[38;5;130m 31 [m[16Ccout << [31m"$ "[m;
+[38;5;130m 32 [m[16Cgetline(cin, line);
+[38;5;130m 33 
+ 34 [m[16C[34m//Input descriptor that can change[m
+[38;5;130m 35 [m[16Cpid_t savedInput = [31m0[m;
+[38;5;130m 36 
+ 37 [m[16C[34m//Repeat until all commands have run[m
+[38;5;130m 38 [m[16C[32mbool[m commandLoop = [31mtrue[m;
+[38;5;130m 39 [16Cwhile[m (commandLoop) {
+[38;5;130m 40 [m[24C[34m//Get the next command[m
+[38;5;130m 41 [m[24Cvector<string> command = readCommand(line);
+[38;5;130m 42 
+ 43 [m[24C[34m//Format it to char ** for exec function arguments[m
+[38;5;130m 44 [m[24C[32mchar[m *commandName;
+[38;5;130m 45 [m[24C[32mchar[m **execArgs = [38;5;130mnew[m [32mchar[m*[command.size()+[31m1[m];[46;176H1,1[11CTop[1;5H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[1;1H[93m  1 [m[96m// Oliver Vazquez[m
+[93m  2 [m[96m// CS 3377 Unix S19[m
+[93m  3 [m[96m// 24 March 2019[m
+[93m  4 
+  5 [m[38;5;81m#include [m[95m<iostream>[m
+[93m  6 [m[38;5;81m#include [m[95m<string>[m
+[93m  7 [m[38;5;81m#include [m[95m<sstream>[m
+[93m  8 [m[38;5;81m#include [m[95m<vector>[m
+[93m  9 [m[38;5;81m#include [m[95m<cstdlib>[m
+[93m 10 [m[38;5;81m#include [m[95m<unistd.h>[m
+[93m 11 [m[38;5;81m#include [m[95m<sys/wait.h>[m
+[93m 12 [m[38;5;81m#include [m[95m<fcntl.h>[m
+[93m 13 
+ 14 [m[93musing[m [38;5;121mnamespace[m std;
+[93m 15 
+ 16 [m[96m/*[m
+[93m 17 [m[96m * Function prototypes[m
+[93m 18 [m[96m */[m
+[93m 19 [mvector<string> readCommand(string &line);
+[93m 20 [mstring readSpecialChar(string &line);
+[93m 21 
+ 22 [m[96m/*[m
+[93m 23 [m[96m * Main Function[m
+[93m 24 [m[96m */[m
+[93m 25 [m[38;5;121mint[m main() {
+[93m 26 [m[8C[96m//Read from user one line at a time[m
+[93m 27 [m[8Cstring line;
+[93m 28 [m[8C[38;5;121mbool[m loop = [95mtrue[m;
+[93m 29 [m[8C[93mwhile[m (loop) {
+[93m 30 [m[16C[96m//Get input[m
+[93m 31 [m[16Ccout << [95m"$ "[m;
+[93m 32 [m[16Cgetline(cin, line);
+[93m 33 
+ 34 [m[16C[96m//Input descriptor that can change[m
+[93m 35 [m[16Cpid_t savedInput = [95m0[m;
+[93m 36 
+ 37 [m[16C[96m//Repeat until all commands have run[m
+[93m 38 [m[16C[38;5;121mbool[m commandLoop = [95mtrue[m;
+[93m 39 [m[16C[93mwhile[m (commandLoop) {
+[93m 40 [m[24C[96m//Get the next command[m
+[93m 41 [m[24Cvector<string> command = readCommand(line);
+[93m 42 
+ 43 [m[24C[96m//Format it to char ** for exec function arguments[m
+[93m 44 [m[24C[38;5;121mchar[m *commandName;
+[93m 45 [m[24C[38;5;121mchar[m **execArgs = [93mnew[m [38;5;121mchar[m*[command.size()+[95m1[m];[46;176H1,1[11CTop"Assignment3.cpp" 215L, 4957C[1;5H[?25h[?25l[46;176H2[2;5H[?25h[?25l[46;176H3[3;5H[?25h[?25l[46;176H4,0-1[4;5H[?25h[?25l[46;176H5,1  [5;5H[?25h[?25l[46;176H6[6;5H[?25h[?25l[46;176H7[7;5H[?25h[?25l[46;176H8[8;5H[?25h[?25l[46;176H9[9;5H[?25h[?25l[46;176H10,1[10;5H[?25h[?25l[46;177H1[11;5H[?25h[?25l[46;177H2[12;5H[?25h[?25l[46;177H3,0-1[13;5H[?25h[?25l[46;177H4,1  [14;5H[?25h[?25l[46;177H5,0-1[15;5H[?25h[?25l[46;177H6,1  [16;5H[?25h[?25l[46;177H7[17;5H[?25h[?25l[46;177H8[18;5H[?25h[?25l[46;177H9[19;5H[?25h[?25l[46;176H20[20;5H[?25h[?25l[46;177H1,0-1[21;5H[?25h[?25l[46;177H2,1  [22;5H[?25h[?25l[46;177H3[23;5H[?25h[?25l[46;177H4[24;5H[?25h[?25l[46;177H5[25;5H[?25h[?25l[46;177H6,1-8[26;12H[?25h[?25l[46;177H7[27;12H[?25h[?25l[46;177H8[28;12H[?25h[?25l[46;177H9[29;12H[?25h[?25l[46;176H30[30;12H[?25h[?25l[46;177H1[31;12H[?25h[?25l[31;5H[48;5;242m       [m [48;5;242m        cout << [m[95m[48;5;242m"$ "[m[48;5;242m; [m[46;1H[1m-- VISUAL LINE --[m[46;19H[K[46;176H31,1-8[8CTop[31;12H[?25h[?25l[30;6H[48;5;242m               [m[96m[48;5;242m//Get input[m[48;5;242m [31;12H [m[46;177H0,1  [30;5H[?25h[?25l[29;6H[48;5;242m       [m[93m[48;5;242mwhile[m[48;5;242m (loop) { [30;5H [m[46;176H29[29;5H[?25h[?25l[28;6H[48;5;242m       [m[38;5;121m[48;5;242mbool[m[48;5;242m loop = [m[95m[48;5;242mtrue[m[48;5;242m; [29;5H [m[46;177H8[28;5H[?25h[?25l[27;6H[48;5;242m       string line; [28;5H [m[46;177H7[27;5H[?25h[?25l[26;6H[48;5;242m       [m[96m[48;5;242m//Read from user one line at a time[m[48;5;242m [27;5H [m[46;177H6[26;5H[?25h[?25l[25;6H[38;5;121m[48;5;242mnt[m[48;5;242m main() { [26;5H [m[46;177H5[25;5H[?25h[?25l[24;6H[96m[48;5;242m*/[m[48;5;242m [m[25;5H[38;5;121m[48;5;242mi[m[46;177H4[24;5H[?25h[?25l[23;6H[96m[48;5;242m* Main Function[m[48;5;242m [m[24;5H[96m[48;5;242m [m[46;177H3[23;5H[?25h[?25l[22;6H[96m[48;5;242m*[m[48;5;242m [m[23;5H[96m[48;5;242m [m[46;177H2[22;5H[?25h[?25l[96m[48;5;242m/[m[46;177H1,0-1[21;5H[?25h[?25l[20;6H[48;5;242mtring readSpecialChar(string &line); [21;5H [m[46;177H0,1  [20;5H[?25h[?25l[19;6H[48;5;242mector<string> readCommand(string &line); [20;5Hs[m[46;176H19[19;5H[?25h[?25l[18;6H[96m[48;5;242m*/[m[48;5;242m [19;5Hv[m[46;177H8[18;5H[?25h[?25l[17;6H[96m[48;5;242m* Function prototypes[m[48;5;242m [m[18;5H[96m[48;5;242m [m[46;177H7[17;5H[?25h[?25l[16;6H[96m[48;5;242m*[m[48;5;242m [m[17;5H[96m[48;5;242m [m[46;177H6[16;5H[?25h[?25l[96m[48;5;242m/[m[46;177H5,0-1[15;5H[?25h[?25l[14;6H[93m[48;5;242msing[m[48;5;242m [m[38;5;121m[48;5;242mnamespace[m[48;5;242m std; [15;5H [m[46;177H4,1  [14;5H[?25h[?25l[93m[48;5;242mu[m[46;177H3,0-1[13;5H[?25h[?25l[12;6H[38;5;81m[48;5;242minclude [m[95m[48;5;242m<fcntl.h>[m[48;5;242m [13;5H [m[46;177H2,1  [12;5H[?25h[?25l[11;6H[38;5;81m[48;5;242minclude [m[95m[48;5;242m<sys/wait.h>[m[48;5;242m [m[12;5H[38;5;81m[48;5;242m#[m[46;177H1[11;5H[?25h[?25l[10;6H[38;5;81m[48;5;242minclude [m[95m[48;5;242m<unistd.h>[m[48;5;242m [m[11;5H[38;5;81m[48;5;242m#[m[46;177H0[10;5H[?25h[?25l[9;6H[38;5;81m[48;5;242minclude [m[95m[48;5;242m<cstdlib>[m[48;5;242m [m[10;5H[38;5;81m[48;5;242m#[m[46;176H9,1 [9;5H[?25h[?25l[8;6H[38;5;81m[48;5;242minclude [m[95m[48;5;242m<vector>[m[48;5;242m [m[9;5H[38;5;81m[48;5;242m#[m[46;176H8[8;5H[?25h[?25l[1C[38;5;81minclude [m[95m<vector>[m[8;22H[K[9;5H[38;5;81m#include [m[95m<cstdlib>[m[9;23H[K[10;5H[38;5;81m#include [m[95m<unistd.h>[m[10;24H[K[11;5H[38;5;81m#include [m[95m<sys/wait.h>[m[11;26H[K[12;5H[38;5;81m#include [m[95m<fcntl.h>[m[12;23H[K[13;5H[K[14;5H[93musing[m [38;5;121mnamespace[m std;[14;25H[K[15;5H[K[16;5H[96m/*[m[16;7H[K[17;5H[96m * Function prototypes[m[17;27H[K[18;5H[96m */[m[18;8H[K[19;5Hvector<string> readCommand(string &line);[19;46H[K[20;5Hstring readSpecialChar(string &line);[20;42H[K[21;5H[K[22;5H[96m/*[m[22;7H[K[23;5H[96m * Main Function[m[23;21H[K[24;5H[96m */[m[24;8H[K[25;5H[38;5;121mint[m main() {[25;17H[K[26;5H        [96m//Read from user one line at a time[m[26;48H[K[27;5H        string line;[27;25H[K[28;5H        [38;5;121mbool[m loop = [95mtrue[m;[28;30H[K[29;5H        [93mwhile[m (loop) {[29;27H[K[30;5H                [96m//Get input[m[30;32H[K[31;5H                cout << [95m"$ "[m;[31;34H[K[46;1H[K[46;176H8,1[11CTop[8;5H[?25h[?25l[46;176H7[7;5H[?25h[?25l[46;176H6[6;5H[?25h[?25l[46;176H5[5;5H[?25h[?25l[1C[38;5;81m[48;5;242minclude [m[95m[48;5;242m<iostream>[m[48;5;242m [m[46;1H[1m-- VISUAL LINE --[m[46;176H[K[46;176H5,1[11CTop[5;5H[?25h[?25l[38;5;81m[48;5;242m#[6;6Hinclude [m[95m[48;5;242m<string>[m[48;5;242m [m[46;176H6[6;5H[?25h[?25l[38;5;81m[48;5;242m#[7;6Hinclude [m[95m[48;5;242m<sstream>[m[48;5;242m [m[46;176H7[7;5H[?25h[?25l[38;5;81m[48;5;242m#[8;6Hinclude [m[95m[48;5;242m<vector>[m[48;5;242m [m[46;176H8[8;5H[?25h[?25l[38;5;81m[48;5;242m#[9;6Hinclude [m[95m[48;5;242m<cstdlib>[m[48;5;242m [m[46;176H9[9;5H[?25h[?25l[38;5;81m[48;5;242m#[10;6Hinclude [m[95m[48;5;242m<unistd.h>[m[48;5;242m [m[46;176H10,1[10;5H[?25h[?25l[38;5;81m[48;5;242m#[11;6Hinclude [m[95m[48;5;242m<sys/wait.h>[m[48;5;242m [m[46;177H1[11;5H[?25h[?25l[38;5;81m[48;5;242m#[12;6Hinclude [m[95m[48;5;242m<fcntl.h>[m[48;5;242m [m[46;177H2[12;5H[?25h[?25l[38;5;81m[48;5;242m#[m[46;177H3,0-1[13;5H[?25h[?25l[48;5;242m [m[14;6H[93m[48;5;242msing[m[48;5;242m [m[38;5;121m[48;5;242mnamespace[m[48;5;242m std; [m[46;177H4,1  [14;5H[?25h[?25l[93m[48;5;242mu[m[46;177H5,0-1[15;5H[?25h[?25l[48;5;242m [m[16;6H[96m[48;5;242m*[m[48;5;242m [m[46;177H6,1  [16;5H[?25h[?25l[96m[48;5;242m/[17;6H* Function prototypes[m[48;5;242m [m[46;177H7[17;5H[?25h[?25l[96m[48;5;242m [18;6H*/[m[48;5;242m [m[46;177H8[18;5H[?25h[?25l[96m[48;5;242m [m[19;6H[48;5;242mector<string> readCommand(string &line); [m[46;177H9[19;5H[?25h[?25l[48;5;242mv[20;6Htring readSpecialChar(string &line); [m[46;176H20[20;5H[?25h[?25l[48;5;242ms[m[46;177H1,0-1[21;5H[?25h[?25l[48;5;242m [m[22;6H[96m[48;5;242m*[m[48;5;242m [m[46;177H2,1  [22;5H[?25h[?25l[96m[48;5;242m/[23;6H* Main Function[m[48;5;242m [m[46;177H3[23;5H[?25h[?25l[96m[48;5;242m [24;6H*/[m[48;5;242m [m[46;177H4[24;5H[?25h[?25l[96m[48;5;242m [m[25;6H[38;5;121m[48;5;242mnt[m[48;5;242m main() { [m[46;177H5[25;5H[?25h[?25l[38;5;121m[48;5;242mi[m[26;5H[48;5;242m       [m [96m[48;5;242m//Read from user one line at a time[m[48;5;242m [m[46;177H6,1-8[26;12H[?25h[?25l[48;5;242m [27;5H       [m [48;5;242mstring line; [m[46;177H7[27;12H[?25h[?25l[48;5;242m [28;5H       [m [38;5;121m[48;5;242mbool[m[48;5;242m loop = [m[95m[48;5;242mtrue[m[48;5;242m; [m[46;177H8[28;12H[?25h[?25l[48;5;242m [29;5H       [m [93m[48;5;242mwhile[m[48;5;242m (loop) { [m[46;177H9[29;12H[?25h[?25l[48;5;242m [30;5H       [m [48;5;242m        [m[96m[48;5;242m//Get input[m[48;5;242m [m[46;176H30[30;12H[?25h[?25l[48;5;242m [31;5H       [m [48;5;242m        cout << [m[95m[48;5;242m"$ "[m[48;5;242m; [m[46;177H1[31;12H[?25h[?25l[48;5;242m [32;5H       [m [48;5;242m        getline(cin, line); [m[46;177H2[32;12H[?25h[?25l[48;5;242m [m[46;177H3,0-1[33;5H[?25h[?25l[48;5;242m [34;5H       [m [48;5;242m        [m[96m[48;5;242m//Input descriptor that can change[m[48;5;242m [m[46;177H4,1-8[34;12H[?25h[?25l[48;5;242m [35;5H       [m [48;5;242m        pid_t savedInput = [m[95m[48;5;242m0[m[48;5;242m; [m[46;177H5[35;12H[?25h[?25l[48;5;242m [36;5H       [m [48;5;242m         [m[46;177H6[36;12H[?25h[?25l[48;5;242m [37;5H       [m [48;5;242m        [m[96m[48;5;242m//Repeat until all commands have run[m[48;5;242m [m[46;177H7[37;12H[?25h[?25l[48;5;242m [38;5H       [m [48;5;242m        [m[38;5;121m[48;5;242mbool[m[48;5;242m commandLoop = [m[95m[48;5;242mtrue[m[48;5;242m; [m[46;177H8[38;12H[?25h[?25l[48;5;242m [39;5H       [m [48;5;242m        [m[93m[48;5;242mwhile[m[48;5;242m (commandLoop) { [m[46;177H9[39;12H[?25h[?25l[48;5;242m [40;5H       [m [48;5;242m                [m[96m[48;5;242m//Get the next command[m[48;5;242m [m[46;176H40[40;12H[?25h[?25l[48;5;242m [41;5H       [m [48;5;242m                vector<string> command = readCommand(line); [m[46;177H1[41;12H[?25h[?25l[48;5;242m [m[46;177H2,0-1[42;5H[?25h[?25l[48;5;242m [43;5H       [m [48;5;242m                [m[96m[48;5;242m//Format it to char ** for exec function arguments[m[48;5;242m [m[46;177H3,1-8[43;12H[?25h[?25l[48;5;242m [44;5H       [m [48;5;242m                [m[38;5;121m[48;5;242mchar[m[48;5;242m *commandName; [m[46;177H4[44;12H[?25h[?25l[48;5;242m [45;5H       [m [48;5;242m                [m[38;5;121m[48;5;242mchar[m[48;5;242m **execArgs = [m[93m[48;5;242mnew[m[48;5;242m [m[38;5;121m[48;5;242mchar[m[48;5;242m*[command.size()+[m[95m[48;5;242m1[m[48;5;242m]; [m[46;177H5[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 46 [m[48;5;242m       [m [48;5;242m                [m[93m[48;5;242mfor[m[48;5;242m ([m[38;5;121m[48;5;242mint[m[48;5;242m i=[m[95m[48;5;242m0[m[48;5;242m; i<command.size(); i++) { [m[46;176H[K[46;176H46,1-8[9C0%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 47 [m[48;5;242m       [m [48;5;242m                        execArgs[i] = ([m[38;5;121m[48;5;242mchar[m[48;5;242m*)command[i].c_str(); [m[46;176H[K[46;176H47,1-8[9C1%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 48 [m[48;5;242m       [m [48;5;242m                } [m[46;176H[K[46;176H48,1-8[9C1%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 49 [m[48;5;242m       [m [48;5;242m                execArgs[command.size()] = [m[95m[48;5;242mnullptr[m[48;5;242m; [m[46;176H[K[46;176H49,1-8[9C2%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 50 [m[48;5;242m       [m [48;5;242m                commandName = execArgs[[m[95m[48;5;242m0[m[48;5;242m]; [m[46;176H[K[46;176H50,1-8[9C2%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 51 [m[46;176H[K[46;176H51,0-1[9C3%[45;5H[?25h[?25l[1;45r[45;1H
+[1;46r[44;5H[48;5;242m [m
+[93m 52 [m[48;5;242m       [m [48;5;242m                [m[96m[48;5;242m//If the command name is "exit" we stop the program[m[48;5;242m [m[46;176H[K[46;176H52,1-8[9C4%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 53 [m[48;5;242m       [m [48;5;242m                [m[93m[48;5;242mif[m[48;5;242m (command[[m[95m[48;5;242m0[m[48;5;242m] == [m[95m[48;5;242m"exit"[m[48;5;242m) [m[46;176H[K[46;176H53,1-8[9C4%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 54 [m[48;5;242m       [m [48;5;242m                        [m[93m[48;5;242mreturn[m[48;5;242m [m[95m[48;5;242m0[m[48;5;242m; [m[46;176H[K[46;176H54,1-8[9C5%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 55 [m[46;176H[K[46;176H55,0-1[9C5%[45;5H[?25h[?25l[1;45r[45;1H
+[1;46r[44;5H[48;5;242m [m
+[93m 56 [m[48;5;242m       [m [48;5;242m                [m[96m[48;5;242m/*[m[48;5;242m [m[46;176H[K[46;176H56,1-8[9C6%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 57 [m[96m[48;5;242m [m[48;5;242m      [m[96m [m[96m[48;5;242m [m[48;5;242m       [m[96m[48;5;242m [m[48;5;242m       [m[96m[48;5;242m * Do special characters (like | ; < > etc)[m[48;5;242m [m[46;176H[K[46;176H57,1-8[9C7%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 58 [m[96m[48;5;242m [m[48;5;242m      [m[96m [m[96m[48;5;242m [m[48;5;242m       [m[96m[48;5;242m [m[48;5;242m       [m[96m[48;5;242m */[m[48;5;242m [m[46;176H[K[46;176H58,1-8[9C7%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 59 [m[48;5;242m       [m [48;5;242m                [m[38;5;121m[48;5;242mint[m[48;5;242m pipes[[m[95m[48;5;242m2[m[48;5;242m]; [m[46;176H[K[46;176H59,1-8[9C8%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 60 [m[48;5;242m       [m [48;5;242m                [m[38;5;121m[48;5;242mint[m[48;5;242m redirectDescriptor; [m[46;176H[K[46;176H60,1-8[9C8%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 61 [m[48;5;242m       [m [48;5;242m                [m[38;5;121m[48;5;242mbool[m[48;5;242m isPiped = [m[95m[48;5;242mfalse[m[48;5;242m; [m[46;176H[K[46;176H61,1-8[9C9%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 62 [m[48;5;242m       [m [48;5;242m                [m[38;5;121m[48;5;242mbool[m[48;5;242m isRedirected = [m[95m[48;5;242mfalse[m[48;5;242m; [m[46;176H[K[46;176H62,1-8[8C10%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 63 [m[48;5;242m       [m [48;5;242m                [m[38;5;121m[48;5;242mbool[m[48;5;242m redirectIn = [m[95m[48;5;242mfalse[m[48;5;242m; [m[46;176H[K[46;176H63,1-8[8C10%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 64 [m[48;5;242m       [m [48;5;242m                string specialChar = readSpecialChar(line); [m[46;176H[K[46;176H64,1-8[8C11%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 65 [m[48;5;242m       [m [48;5;242m                [m[93m[48;5;242mif[m[48;5;242m (specialChar == [m[95m[48;5;242m"STOP"[m[48;5;242m) { [m[46;176H[K[46;176H65,1-8[8C11%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 66 [m[48;5;242m       [m [48;5;242m                        [m[96m[48;5;242m//Stops the loop after the next command runs[m[48;5;242m [m[46;176H[K[46;176H66,1-8[8C12%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 67 [m[48;5;242m       [m [48;5;242m                        commandLoop = [m[95m[48;5;242mfalse[m[48;5;242m; [m[46;176H[K[46;176H67,1-8[8C12%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 68 [m[48;5;242m       [m [48;5;242m                } [m[93m[48;5;242melse[m[48;5;242m [m[93m[48;5;242mif[m[48;5;242m (specialChar == [m[95m[48;5;242m"|"[m[48;5;242m) { [m[46;176H[K[46;176H68,1-8[8C13%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 69 [m[48;5;242m       [m [48;5;242m                        [m[96m[48;5;242m//Opens a pipe for the next command[m[48;5;242m [m[46;176H[K[46;176H69,1-8[8C14%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 70 [m[48;5;242m       [m [48;5;242m                        isPiped = [m[95m[48;5;242mtrue[m[48;5;242m; [m[46;176H[K[46;176H70,1-8[8C14%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 71 [m[48;5;242m       [m [48;5;242m                        pipe(pipes); [m[46;176H[K[46;176H71,1-8[8C15%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 72 [m[48;5;242m       [m [48;5;242m                } [m[93m[48;5;242melse[m[48;5;242m [m[93m[48;5;242mif[m[48;5;242m (specialChar == [m[95m[48;5;242m"<"[m[48;5;242m || specialChar == [m[95m[48;5;242m">"[m[48;5;242m || specialChar == [m[95m[48;5;242m">>"[m[48;5;242m) { [m[46;176H[K[46;176H72,1-8[8C15%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 73 [m[48;5;242m       [m [48;5;242m                        [m[96m[48;5;242m//Read the file redirect[m[48;5;242m [m[46;176H[K[46;176H73,1-8[8C16%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 74 [m[48;5;242m       [m [48;5;242m                        vector<string> file = readCommand(line); [m[46;176H[K[46;176H74,1-8[8C17%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 75 [m[48;5;242m       [m [48;5;242m                        string fileName = file[[m[95m[48;5;242m0[m[48;5;242m]; [m[46;176H[K[46;176H75,1-8[8C17%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 76 [m[48;5;242m       [m [48;5;242m                        isRedirected = [m[95m[48;5;242mtrue[m[48;5;242m; [m[46;176H[K[46;176H76,1-8[8C18%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 77 [m[48;5;242m       [m [48;5;242m                         [m[46;176H[K[46;176H77,1-8[8C18%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 78 [m[48;5;242m       [m [48;5;242m                        [m[96m[48;5;242m//Open the descriptor for the file[m[48;5;242m [m[46;176H[K[46;176H78,1-8[8C19%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 79 [m[48;5;242m       [m [48;5;242m                        [m[93m[48;5;242mif[m[48;5;242m (specialChar == [m[95m[48;5;242m"<"[m[48;5;242m) { [m[46;176H[K[46;176H79,1-8[8C20%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 80 [m[48;5;242m       [m [48;5;242m                                redirectDescriptor = open(fileName.c_str(), O_RDONLY); [m[46;176H[K[46;176H80,1-8[8C20%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 81 [m[48;5;242m       [m [48;5;242m                                redirectIn = [m[95m[48;5;242mtrue[m[48;5;242m; [m[46;176H[K[46;176H81,1-8[8C21%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 82 [m[48;5;242m       [m [48;5;242m                        } [m[93m[48;5;242melse[m[48;5;242m [m[93m[48;5;242mif[m[48;5;242m (specialChar == [m[95m[48;5;242m">"[m[48;5;242m) { [m[46;176H[K[46;176H82,1-8[8C21%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 83 [m[48;5;242m       [m [48;5;242m                                redirectDescriptor = open(fileName.c_str(), O_WRONLY | O_CREAT, [m[38;5;81m[48;5;242m0[m[95m[48;5;242m777[m[48;5;242m); [m[46;176H[K[46;176H83,1-8[8C22%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 84 [m[48;5;242m       [m [48;5;242m                        } [m[93m[48;5;242melse[m[48;5;242m { [m[46;176H[K[46;176H84,1-8[8C22%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 85 [m[48;5;242m       [m [48;5;242m                                redirectDescriptor = open(fileName.c_str(), O_WRONLY | O_CREAT | O_APPEND, [m[38;5;81m[48;5;242m0[m[95m[48;5;242m777[m[48;5;242m); [m[46;176H[K[46;176H85,1-8[8C23%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 86 [m[48;5;242m       [m [48;5;242m                        } [m[46;176H[K[46;176H86,1-8[8C24%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 87 [m[48;5;242m       [m [48;5;242m                        [m[93m[48;5;242mif[m[48;5;242m (redirectDescriptor < [m[95m[48;5;242m0[m[48;5;242m) { [m[46;176H[K[46;176H87,1-8[8C24%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 88 [m[48;5;242m       [m [48;5;242m                                cout << [m[95m[48;5;242m"Error opening file!"[m[48;5;242m << endl; [m[46;176H[K[46;176H88,1-8[8C25%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 89 [m[48;5;242m       [m [48;5;242m                        } [m[46;176H[K[46;176H89,1-8[8C25%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 90 [m[48;5;242m       [m [48;5;242m                } [m[46;176H[K[46;176H90,1-8[8C26%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 91 [m[46;176H[K[46;176H91,0-1[8C27%[45;5H[?25h[?25l[1;45r[45;1H
+[1;46r[44;5H[48;5;242m [m
+[93m 92 [m[48;5;242m       [m [48;5;242m                [m[96m[48;5;242m//Fork the program to run the command[m[48;5;242m [m[46;176H[K[46;176H92,1-8[8C27%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 93 [m[48;5;242m       [m [48;5;242m                pid_t forkPID = fork(); [m[46;176H[K[46;176H93,1-8[8C28%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 94 [m[48;5;242m       [m [48;5;242m                [m[93m[48;5;242mif[m[48;5;242m (forkPID == [m[95m[48;5;242m0[m[48;5;242m) { [m[46;176H[K[46;176H94,1-8[8C28%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 95 [m[48;5;242m       [m [48;5;242m                        [m[96m[48;5;242m//If we are the child then do redirects and execute:[m[48;5;242m [m[46;176H[K[46;176H95,1-8[8C29%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 96 [m[48;5;242m       [m [48;5;242m                        [m[96m[48;5;242m//Get the current input source[m[48;5;242m [m[46;176H[K[46;176H96,1-8[8C30%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 97 [m[48;5;242m       [m [48;5;242m                        dup2(savedInput, [m[95m[48;5;242m0[m[48;5;242m); [m[46;176H[K[46;176H97,1-8[8C30%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m 98 [m[46;176H[K[46;176H98,0-1[8C31%[45;5H[?25h[?25l[1;45r[45;1H
+[1;46r[44;5H[48;5;242m [m
+[93m 99 [m[48;5;242m       [m [48;5;242m                        [m[96m[48;5;242m//Get pipe/file redirection sources[m[48;5;242m [m[46;176H[K[46;176H99,1-8[8C31%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m100 [m[48;5;242m       [m [48;5;242m                        [m[93m[48;5;242mif[m[48;5;242m (isPiped == [m[95m[48;5;242mtrue[m[48;5;242m) { [m[46;176H[K[46;176H100,1-8[7C32%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m101 [m[48;5;242m       [m [48;5;242m                                [m[96m[48;5;242m//Set output to writing side of pipe[m[48;5;242m [m[46;176H[K[46;176H101,1-8[7C32%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m102 [m[48;5;242m       [m [48;5;242m                                dup2(pipes[[m[95m[48;5;242m1[m[48;5;242m], [m[95m[48;5;242m1[m[48;5;242m); [m[46;176H[K[46;176H102,1-8[7C33%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m103 [m[48;5;242m       [m [48;5;242m                        } [m[93m[48;5;242melse[m[48;5;242m [m[93m[48;5;242mif[m[48;5;242m (isRedirected == [m[95m[48;5;242mtrue[m[48;5;242m) { [m[46;176H[K[46;176H103,1-8[7C34%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m104 [m[48;5;242m       [m [48;5;242m                                [m[96m[48;5;242m//Set input/output based off redirectIn flag[m[48;5;242m [m[46;176H[K[46;176H104,1-8[7C34%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m105 [m[48;5;242m       [m [48;5;242m                                [m[93m[48;5;242mif[m[48;5;242m (redirectIn == [m[95m[48;5;242mtrue[m[48;5;242m) {  [m[46;176H[K[46;176H105,1-8[7C35%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m106 [m[48;5;242m       [m [48;5;242m                                        dup2(redirectDescriptor, [m[95m[48;5;242m0[m[48;5;242m); [m[46;176H[K[46;176H106,1-8[7C35%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m107 [m[48;5;242m       [m [48;5;242m                                } [m[93m[48;5;242melse[m[48;5;242m { [m[46;176H[K[46;176H107,1-8[7C36%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m108 [m[48;5;242m       [m [48;5;242m                                        dup2(redirectDescriptor, [m[95m[48;5;242m1[m[48;5;242m); [m[46;176H[K[46;176H108,1-8[7C37%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m109 [m[48;5;242m       [m [48;5;242m                                } [m[46;176H[K[46;176H109,1-8[7C37%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m110 [m[48;5;242m       [m [48;5;242m                        } [m[46;176H[K[46;176H110,1-8[7C38%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m111 [m[46;176H[K[46;176H111,0-1[7C38%[45;5H[?25h[?25l[1;45r[45;1H
+[1;46r[44;5H[48;5;242m [m
+[93m112 [m[48;5;242m       [m [48;5;242m                        [m[96m[48;5;242m//Execute the command[m[48;5;242m [m[46;176H[K[46;176H112,1-8[7C39%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m113 [m[48;5;242m       [m [48;5;242m                        execvp(commandName, execArgs); [m[46;176H[K[46;176H113,1-8[7C40%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m114 [m[48;5;242m       [m [48;5;242m                } [m[93m[48;5;242melse[m[48;5;242m [m[93m[48;5;242mif[m[48;5;242m (forkPID < [m[95m[48;5;242m0[m[48;5;242m) { [m[46;176H[K[46;176H114,1-8[7C40%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m115 [m[48;5;242m       [m [48;5;242m                        [m[96m[48;5;242m//If the PID is less than 0 there is an error[m[48;5;242m [m[46;176H[K[46;176H115,1-8[7C41%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m116 [m[48;5;242m       [m [48;5;242m                        cout << [m[95m[48;5;242m"Error forking!"[m[48;5;242m << endl; [m[46;176H[K[46;176H116,1-8[7C41%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m117 [m[48;5;242m       [m [48;5;242m                } [m[93m[48;5;242melse[m[48;5;242m { [m[46;176H[K[46;176H117,1-8[7C42%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m118 [m[48;5;242m       [m [48;5;242m                        [m[96m[48;5;242m//If we are the parent then just wait for the child to finish running[m[48;5;242m [m[46;176H[K[46;176H118,1-8[7C42%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m119 [m[48;5;242m       [m [48;5;242m                        waitpid(forkPID, [m[95m[48;5;242mnullptr[m[48;5;242m, [m[95m[48;5;242m0[m[48;5;242m); [m[46;176H[K[46;176H119,1-8[7C43%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m120 [m[48;5;242m       [m [48;5;242m                } [m[46;176H[K[46;176H120,1-8[7C44%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m121 [m[46;176H[K[46;176H121,0-1[7C44%[45;5H[?25h[?25l[1;45r[45;1H
+[1;46r[44;5H[48;5;242m [m
+[93m122 [m[48;5;242m       [m [48;5;242m                [m[96m[48;5;242m//If there was a piping, then update the input source to the reading side and close the writing side[m[48;5;242m [m[46;176H[K[46;176H122,1-8[7C45%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m123 [m[48;5;242m       [m [48;5;242m                [m[93m[48;5;242mif[m[48;5;242m (isPiped == [m[95m[48;5;242mtrue[m[48;5;242m) { [m[46;176H[K[46;176H123,1-8[7C45%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m124 [m[48;5;242m       [m [48;5;242m                        close(pipes[[m[95m[48;5;242m1[m[48;5;242m]); [m[46;176H[K[46;176H124,1-8[7C46%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m125 [m[48;5;242m       [m [48;5;242m                        savedInput = pipes[[m[95m[48;5;242m0[m[48;5;242m]; [m[46;176H[K[46;176H125,1-8[7C47%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m126 [m[48;5;242m       [m [48;5;242m                } [m[46;176H[K[46;176H126,1-8[7C47%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m127 [m[46;176H[K[46;176H127,0-1[7C48%[45;5H[?25h[?25l[1;45r[45;1H
+[1;46r[44;5H[48;5;242m [m
+[93m128 [m[48;5;242m       [m [48;5;242m                [m[96m[48;5;242m//If there is a semicolon, refresh saved input source to standard input for the next command to run[m[48;5;242m [m[46;176H[K[46;176H128,1-8[7C48%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m129 [m[48;5;242m       [m [48;5;242m                [m[93m[48;5;242mif[m[48;5;242m (specialChar == [m[95m[48;5;242m";"[m[48;5;242m) { [m[46;176H[K[46;176H129,1-8[7C49%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m130 [m[48;5;242m       [m [48;5;242m                        savedInput = [m[95m[48;5;242m0[m[48;5;242m; [m[46;176H[K[46;176H130,1-8[7C50%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m131 [m[48;5;242m       [m [48;5;242m                } [m[46;176H[K[46;176H131,1-8[7C50%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m132 [m[46;176H[K[46;176H132,0-1[7C51%[45;5H[?25h[?25l[1;45r[45;1H
+[1;46r[44;5H[48;5;242m [m
+[93m133 [m[48;5;242m       [m [48;5;242m                [m[96m[48;5;242m//If the string is empty, end the loop[m[48;5;242m [m[46;176H[K[46;176H133,1-8[7C51%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m134 [m[48;5;242m       [m [48;5;242m                [m[93m[48;5;242mif[m[48;5;242m (line.size() == [m[95m[48;5;242m0[m[48;5;242m) { [m[46;176H[K[46;176H134,1-8[7C52%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m135 [m[48;5;242m       [m [48;5;242m                        commandLoop = [m[95m[48;5;242mfalse[m[48;5;242m; [m[46;176H[K[46;176H135,1-8[7C52%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m136 [m[48;5;242m       [m [48;5;242m                } [m[46;176H[K[46;176H136,1-8[7C53%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m137 [m[46;176H[K[46;176H137,0-1[7C54%[45;5H[?25h[?25l[1;45r[45;1H
+[1;46r[44;5H[48;5;242m [m
+[93m138 [m[48;5;242m       [m [48;5;242m                [m[96m[48;5;242m//Clean the arg array[m[48;5;242m [m[46;176H[K[46;176H138,1-8[7C54%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m139 [m[48;5;242m       [m [48;5;242m                [m[93m[48;5;242mdelete[m[48;5;242m execArgs; [m[46;176H[K[46;176H139,1-8[7C55%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m140 [m[48;5;242m       [m [48;5;242m        } [m[46;176H[K[46;176H140,1-8[7C55%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m141 [m[48;5;242m       [m [48;5;242m} [m[46;176H[K[46;176H141,1-8[7C56%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m142 [m[48;5;242m       [m [93m[48;5;242mreturn[m[48;5;242m [m[95m[48;5;242m0[m[48;5;242m; [m[46;176H[K[46;176H142,1-8[7C57%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m143 [m}[48;5;242m [m[46;176H[K[46;176H143,1[9C57%[45;5H[?25h[?25l[1;45r[45;1H
+[1;46r[44;5H[48;5;242m}[m
+[93m144 [m[46;176H[K[46;176H144,0-1[7C58%[45;5H[?25h[?25l[1;45r[45;1H
+[1;46r[44;5H[48;5;242m [m
+[93m145 [m[96m/[m[96m[48;5;242m*[m[48;5;242m [m[46;176H[K[46;176H145,1[9C58%[45;5H[?25h[?25l[1;45r[45;1H
+[1;46r[44;5H[96m[48;5;242m/[m
+[93m146 [m[96m [m[96m[48;5;242m* Reads a command line into a vector of strings[m[48;5;242m [m[46;176H[K[46;176H146,1[9C59%[45;5H[?25h[?25l[1;45r[45;1H
+[1;46r[44;5H[96m[48;5;242m [m
+[93m147 [m[96m [m[96m[48;5;242m*/[m[48;5;242m [m[46;176H[K[46;176H147,1[9C60%[45;5H[?25h[?25l[1;45r[45;1H
+[1;46r[44;5H[96m[48;5;242m [m
+[93m148 [mv[48;5;242mector<string> readCommand(string &line) { [m[46;176H[K[46;176H148,1[9C60%[45;5H[?25h[?25l[1;45r[45;1H
+[1;46r[44;5H[48;5;242mv[m
+[93m149 [m[48;5;242m       [m [96m[48;5;242m//Find the command boundary[m[48;5;242m [m[46;176H[K[46;176H149,1-8[7C61%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m150 [m[48;5;242m       [m [38;5;121m[48;5;242mint[m[48;5;242m i; [m[46;176H[K[46;176H150,1-8[7C61%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m151 [m[48;5;242m       [m [93m[48;5;242mfor[m[48;5;242m (i = [m[95m[48;5;242m0[m[48;5;242m; i<line.size(); i++) { [m[46;176H[K[46;176H151,1-8[7C62%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m152 [m[48;5;242m       [m [48;5;242m        [m[38;5;121m[48;5;242mbool[m[48;5;242m stop = [m[95m[48;5;242mfalse[m[48;5;242m; [m[46;176H[K[46;176H152,1-8[7C62%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m153 [m[48;5;242m       [m [48;5;242m        [m[93m[48;5;242mswitch[m[48;5;242m (line[i]) { [m[46;176H[K[46;176H153,1-8[7C63%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m154 [m[48;5;242m       [m [48;5;242m        [m[93m[48;5;242mcase[m[48;5;242m [m[95m[48;5;242m';'[m[48;5;242m: [m[46;176H[K[46;176H154,1-8[7C64%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m155 [m[48;5;242m       [m [48;5;242m        [m[93m[48;5;242mcase[m[48;5;242m [m[95m[48;5;242m'<'[m[48;5;242m: [m[46;176H[K[46;176H155,1-8[7C64%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m156 [m[48;5;242m       [m [48;5;242m        [m[93m[48;5;242mcase[m[48;5;242m [m[95m[48;5;242m'>'[m[48;5;242m: [m[46;176H[K[46;176H156,1-8[7C65%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m157 [m[48;5;242m       [m [48;5;242m        [m[93m[48;5;242mcase[m[48;5;242m [m[95m[48;5;242m'|'[m[48;5;242m: [m[46;176H[K[46;176H157,1-8[7C65%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m158 [m[48;5;242m       [m [48;5;242m        [m[93m[48;5;242mcase[m[48;5;242m [m[38;5;224m[48;5;242m'\0'[m[48;5;242m: [m[46;176H[K[46;176H158,1-8[7C66%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m159 [m[48;5;242m       [m [48;5;242m                i -= [m[95m[48;5;242m1[m[48;5;242m; [m[46;176H[K[46;176H159,1-8[7C67%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m160 [m[48;5;242m       [m [48;5;242m                stop = [m[95m[48;5;242mtrue[m[48;5;242m; [m[46;176H[K[46;176H160,1-8[7C67%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m161 [m[48;5;242m       [m [48;5;242m                [m[93m[48;5;242mbreak[m[48;5;242m; [m[46;176H[K[46;176H161,1-8[7C68%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m162 [m[48;5;242m       [m [48;5;242m        } [m[46;176H[K[46;176H162,1-8[7C68%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m163 [m[48;5;242m       [m [48;5;242m        [m[93m[48;5;242mif[m[48;5;242m (stop) [m[93m[48;5;242mbreak[m[48;5;242m; [m[46;176H[K[46;176H163,1-8[7C69%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m164 [m[48;5;242m       [m [48;5;242m} [m[46;176H[K[46;176H164,1-8[7C70%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m165 [m[46;176H[K[46;176H165,0-1[7C70%[45;5H[?25h[?25l[1;45r[45;1H
+[1;46r[44;5H[48;5;242m [m
+[93m166 [m[48;5;242m       [m [96m[48;5;242m//Get the command as a stream[m[48;5;242m [m[46;176H[K[46;176H166,1-8[7C71%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m167 [m[48;5;242m       [m [48;5;242mstringstream commandStream(line.substr([m[95m[48;5;242m0[m[48;5;242m, i)); [m[46;176H[K[46;176H167,1-8[7C71%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m168 [m[48;5;242m       [m [48;5;242mline.erase([m[95m[48;5;242m0[m[48;5;242m, i); [m[46;176H[K[46;176H168,1-8[7C72%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m169 [m[46;176H[K[46;176H169,0-1[7C72%[45;5H[?25h[?25l[1;45r[45;1H
+[1;46r[44;5H[48;5;242m [m
+[93m170 [m[48;5;242m       [m [96m[48;5;242m//Read command parts into a vector[m[48;5;242m [m[46;176H[K[46;176H170,1-8[7C73%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m171 [m[48;5;242m       [m [48;5;242mstring part; [m[46;176H[K[46;176H171,1-8[7C74%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m172 [m[48;5;242m       [m [48;5;242mvector<string> command; [m[46;176H[K[46;176H172,1-8[7C74%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m173 [m[48;5;242m       [m [93m[48;5;242mwhile[m[48;5;242m (commandStream >> part) { [m[46;176H[K[46;176H173,1-8[7C75%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m174 [m[48;5;242m       [m [48;5;242m        command.push_back(part); [m[46;176H[K[46;176H174,1-8[7C75%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m175 [m[48;5;242m       [m [48;5;242m} [m[46;176H[K[46;176H175,1-8[7C76%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m176 [m[46;176H[K[46;176H176,0-1[7C77%[45;5H[?25h[?25l[1;45r[45;1H
+[1;46r[44;5H[48;5;242m [m
+[93m177 [m[48;5;242m       [m [96m[48;5;242m//Return the vector[m[48;5;242m [m[46;176H[K[46;176H177,1-8[7C77%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m178 [m[48;5;242m       [m [93m[48;5;242mreturn[m[48;5;242m command; [m[46;176H[K[46;176H178,1-8[7C78%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m179 [m[46m}[m[48;5;242m [m[46;176H[K[46;176H179,1[9C78%[45;5H[?25h[?25l[1;45r[45;1H
+[1;46r[44;5H[48;5;242m}[m
+[93m180 [m[96m/[m[96m[48;5;242m*[m[48;5;242m [m[46;176H[K[46;176H180,1[9C79%[45;5H[?25h[?25l[1;45r[45;1H
+[1;46r[44;5H[96m[48;5;242m/[m
+[93m181 [m[96m [m[96m[48;5;242m* Reads a special symbol from the line[m[48;5;242m [m[46;176H[K[46;176H181,1[9C80%[45;5H[?25h[?25l[1;45r[45;1H
+[1;46r[44;5H[96m[48;5;242m [m
+[93m182 [m[96m [m[96m[48;5;242m*/[m[48;5;242m [m[46;176H[K[46;176H182,1[9C80%[45;5H[?25h[?25l[1;45r[45;1H
+[1;46r[44;5H[96m[48;5;242m [m
+[93m183 [ms[48;5;242mtring readSpecialChar(string &line) { [m[46;176H[K[46;176H183,1[9C81%[45;5H[?25h[?25l[1;45r[45;1H
+[1;46r[44;5H[48;5;242ms[m
+[93m184 [m[48;5;242m       [m [96m[48;5;242m//Find the special word[m[48;5;242m [m[46;176H[K[46;176H184,1-8[7C81%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m185 [m[48;5;242m       [m [38;5;121m[48;5;242mint[m[48;5;242m i; [m[46;176H[K[46;176H185,1-8[7C82%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m186 [m[48;5;242m       [m [48;5;242mstring word; [m[46;176H[K[46;176H186,1-8[7C82%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m187 [m[48;5;242m       [m [93m[48;5;242mfor[m[48;5;242m (i = [m[95m[48;5;242m0[m[48;5;242m; i<line.size(); i++) { [m[46;176H[K[46;176H187,1-8[7C83%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m188 [m[48;5;242m       [m [48;5;242m        [m[93m[48;5;242mif[m[48;5;242m (line[i] == [m[95m[48;5;242m';'[m[48;5;242m) { [m[46;176H[K[46;176H188,1-8[7C84%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m189 [m[48;5;242m       [m [48;5;242m                word = [m[95m[48;5;242m";"[m[48;5;242m; [m[46;176H[K[46;176H189,1-8[7C84%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m190 [m[48;5;242m       [m [48;5;242m                [m[93m[48;5;242mbreak[m[48;5;242m; [m[46;176H[K[46;176H190,1-8[7C85%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m191 [m[48;5;242m       [m [48;5;242m        } [m[93m[48;5;242melse[m[48;5;242m [m[93m[48;5;242mif[m[48;5;242m (line[i] == [m[95m[48;5;242m'<'[m[48;5;242m) { [m[46;176H[K[46;176H191,1-8[7C85%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m192 [m[48;5;242m       [m [48;5;242m                word = [m[95m[48;5;242m"<"[m[48;5;242m; [m[46;176H[K[46;176H192,1-8[7C86%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m193 [m[48;5;242m       [m [48;5;242m                [m[93m[48;5;242mbreak[m[48;5;242m; [m[46;176H[K[46;176H193,1-8[7C87%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m194 [m[48;5;242m       [m [48;5;242m        } [m[93m[48;5;242melse[m[48;5;242m [m[93m[48;5;242mif[m[48;5;242m (line[i] == [m[95m[48;5;242m'>'[m[48;5;242m) { [m[46;176H[K[46;176H194,1-8[7C87%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m195 [m[48;5;242m       [m [48;5;242m                [m[93m[48;5;242mif[m[48;5;242m (line[i+[m[95m[48;5;242m1[m[48;5;242m] == [m[95m[48;5;242m'>'[m[48;5;242m) { [m[46;176H[K[46;176H195,1-8[7C88%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m196 [m[48;5;242m       [m [48;5;242m                        word = [m[95m[48;5;242m">>"[m[48;5;242m; [m[46;176H[K[46;176H196,1-8[7C88%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m197 [m[48;5;242m       [m [48;5;242m                } [m[93m[48;5;242melse[m[48;5;242m { [m[46;176H[K[46;176H197,1-8[7C89%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m198 [m[48;5;242m       [m [48;5;242m                        word = [m[95m[48;5;242m">"[m[48;5;242m; [m[46;176H[K[46;176H198,1-8[7C90%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m199 [m[48;5;242m       [m [48;5;242m                } [m[46;176H[K[46;176H199,1-8[7C90%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m200 [m[48;5;242m       [m [48;5;242m                [m[93m[48;5;242mbreak[m[48;5;242m; [m[46;176H[K[46;176H200,1-8[7C91%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m201 [m[48;5;242m       [m [48;5;242m        } [m[93m[48;5;242melse[m[48;5;242m [m[93m[48;5;242mif[m[48;5;242m (line[i] == [m[95m[48;5;242m'|'[m[48;5;242m) { [m[46;176H[K[46;176H201,1-8[7C91%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m202 [m[48;5;242m       [m [48;5;242m                word = [m[95m[48;5;242m"|"[m[48;5;242m; [m[46;176H[K[46;176H202,1-8[7C92%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m203 [m[48;5;242m       [m [48;5;242m                [m[93m[48;5;242mbreak[m[48;5;242m; [m[46;176H[K[46;176H203,1-8[7C92%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m204 [m[48;5;242m       [m [48;5;242m        } [m[93m[48;5;242melse[m[48;5;242m [m[93m[48;5;242mif[m[48;5;242m (line[i] == [m[38;5;224m[48;5;242m'\0'[m[48;5;242m || line[i] == [m[38;5;224m[48;5;242m'\n'[m[48;5;242m) { [m[46;176H[K[46;176H204,1-8[7C93%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m205 [m[48;5;242m       [m [48;5;242m                word = [m[95m[48;5;242m"STOP"[m[48;5;242m; [m[46;176H[K[46;176H205,1-8[7C94%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m206 [m[48;5;242m       [m [48;5;242m                [m[93m[48;5;242mbreak[m[48;5;242m; [m[46;176H[K[46;176H206,1-8[7C94%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m207 [m[48;5;242m       [m [48;5;242m        } [m[93m[48;5;242melse[m[48;5;242m [m[93m[48;5;242mif[m[48;5;242m (!isspace(line[i])) { [m[46;176H[K[46;176H207,1-8[7C95%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m208 [m[48;5;242m       [m [48;5;242m                [m[96m[48;5;242m//Return if the next thing isnt a special character[m[48;5;242m [m[46;176H[K[46;176H208,1-8[7C95%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m209 [m[48;5;242m       [m [48;5;242m                [m[93m[48;5;242mreturn[m[48;5;242m [m[95m[48;5;242m""[m[48;5;242m; [m[46;176H[K[46;176H209,1-8[7C96%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m210 [m[48;5;242m       [m [48;5;242m        } [m[46;176H[K[46;176H210,1-8[7C97%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m211 [m[48;5;242m       [m [48;5;242m} [m[46;176H[K[46;176H211,1-8[7C97%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m212 [m[48;5;242m       [m [93m[48;5;242mif[m[48;5;242m (i == [m[95m[48;5;242m0[m[48;5;242m) [m[93m[48;5;242mreturn[m[48;5;242m [m[95m[48;5;242m"STOP"[m[48;5;242m; [m[46;176H[K[46;176H212,1-8[7C98%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m213 [m[48;5;242m       [m [48;5;242mline.erase([m[95m[48;5;242m0[m[48;5;242m, i+[m[95m[48;5;242m1[m[48;5;242m); [m[46;176H[K[46;176H213,1-8[7C98%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m214 [m[48;5;242m       [m [93m[48;5;242mreturn[m[48;5;242m word; [m[46;176H[K[46;176H214,1-8[7C99%[45;12H[?25h[?25l[1;45r[45;1H
+[1;46r[44;12H[48;5;242m [m
+[93m215 [m[46m}[m[48;5;242m [m[46;176H[K[46;176H215,1[9CBot[45;5H[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l
+211 fewer lines[46;16H[K[1;1H[93m  5[m[1C[96m//ovc[m[1;10H[K[2;1H[94m~                                                                                                                                                                                                [3;1H~                                                                                                                                                                                                [4;1H~                                                                                                                                                                                                [5;1H~                                                                                                                                                                                                [6;1H~                                                                                                                                                                                                [7;1H~                                                                                                                                                                                                [8;1H~                                                                                                                                                                                                [9;1H~                                                                                                                                                                                                [10;1H~                                                                                                                                                                                                [11;1H~                                                                                                                                                                                                [12;1H~                                                                                                                                                                                                [13;1H~                                                                                                                                                                                                [14;1H~                                                                                                                                                                                                [15;1H~                                                                                                                                                                                                [16;1H~                                                                                                                                                                                                [17;1H~                                                                                                                                                                                                [18;1H~                                                                                                                                                                                                [19;1H~                                                                                                                                                                                                [20;1H~                                                                                                                                                                                                [21;1H~                                                                                                                                                                                                [22;1H~                                                                                                                                                                                                [23;1H~                                                                                                                                                                                                [24;1H~                                                                                                                                                                                                [25;1H~                                                                                                                                                                                                [26;1H~                                                                                                                                                                                                [27;1H~                                                                                                                                                                                                [28;1H~                                                                                                                                                                                                [29;1H~                                                                                                                                                                                                [30;1H~                                                                                                                                                                                                [31;1H~                                                                                                                                                                                                [32;1H~                                                                                                                                                                                                [33;1H~                                                                                                                                                                                                [34;1H~                                                                                                                                                                                                [35;1H~                                                                                                                                                                                                [36;1H~                                                                                                                                                                                                [37;1H~                                                                                                                                                                                                [38;1H~                                                                                                                                                                                                [39;1H~                                                                                                                                                                                                [40;1H~                                                                                                                                                                                                [41;1H~                                                                                                                                                                                                [42;1H~                                                                                                                                                                                                [43;1H~                                                                                                                                                                                                [44;1H~                                                                                                                                                                                                [45;1H~                                                                                                                                                                                                [m[46;176H5,1[11CBot[46;176H[K[46;176H5,1[11CBot[1;5H[?25h[?25l[1;45r[1;1H[L[1;46r[1;1H[93m  4 [m[46;1H[K[46;176H4,0-1[9CBot[1;5H[?25h[?25l[1;45r[1;1H[L[1;46r[1;1H[93m  3 [m[96m// 24 March 2019[m[46;176H[K[46;176H3,1[11CBot[1;5H[?25h[?25l[1;45r[1;1H[L[1;46r[1;1H[93m  2 [m[96m// CS 3377 Unix S19[m[46;176H[K[46;176H2,1[11CBot[1;5H[?25h[?25l[1;45r[1;1H[L[1;46r[1;1H[93m  1 [m[96m// Oliver Vazquez[m[46;176H[K[46;176H1,1[11CAll[1;5H[?25h[46;1H
+[?2004l[?1l>[?1049l[23;0;0t[?2004l
+[1]+  Stopped                 vim Assignment3.cpp
+]0;true-mex@oliver-laptop: ~/Desktop/Unix/Projects/3[01;32mtrue-mex@oliver-laptop[00m:[01;34m~/Desktop/Unix/Projects/3[00m$ vim Assignment3.cpp 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;46r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[46;1H[97m[41mE325: ATTENTION[m
+Found a swap file by the name ".Assignment3.cpp.swp"
+[10Cowned by: oliver   dated: Sun Mar 24 23:37:34 2019
+[9Cfile name: ~oliver/Desktop/Unix/Projects/3/Assignment3.cpp
+[10Cmodified: YES
+[9Cuser name: oliver   host name: oliver-laptop
+[8Cprocess ID: 3077 (still running)
+While opening file "Assignment3.cpp"
+[13Cdated: Sun Mar 24 23:32:01 2019
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r Assignment3.cpp"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".Assignment3.cpp.swp"
+    to avoid this message.
+
+[32mSwap file ".Assignment3.cpp.swp" already exists![m
+[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [?25h[m[46;1H[K[?25l[46;1H"Assignment3.cpp" 215L, 4957C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[38;5;130m  1 [m[34m// Oliver Vazquez[m
+[38;5;130m  2 [m[34m// CS 3377 Unix S19[m
+[38;5;130m  3 [m[34m// 24 March 2019[m
+[38;5;130m  4 
+  5 [m[35m#include [m[31m<iostream>[m
+[38;5;130m  6 [m[35m#include [m[31m<string>[m
+[38;5;130m  7 [m[35m#include [m[31m<sstream>[m
+[38;5;130m  8 [m[35m#include [m[31m<vector>[m
+[38;5;130m  9 [m[35m#include [m[31m<cstdlib>[m
+[38;5;130m 10 [m[35m#include [m[31m<unistd.h>[m
+[38;5;130m 11 [m[35m#include [m[31m<sys/wait.h>[m
+[38;5;130m 12 [m[35m#include [m[31m<fcntl.h>[m
+[38;5;130m 13 
+ 14 using[m [32mnamespace[m std;
+[38;5;130m 15 
+ 16 [m[34m/*[m
+[38;5;130m 17 [m[34m * Function prototypes[m
+[38;5;130m 18 [m[34m */[m
+[38;5;130m 19 [mvector<string> readCommand(string &line);
+[38;5;130m 20 [mstring readSpecialChar(string &line);
+[38;5;130m 21 
+ 22 [m[34m/*[m
+[38;5;130m 23 [m[34m * Main Function[m
+[38;5;130m 24 [m[34m */[m
+[38;5;130m 25 [m[32mint[m main() {
+[38;5;130m 26 [m        [34m//Read from user one line at a time[m
+[38;5;130m 27 [m        string line;[27;26H[K[28;1H[38;5;130m 28 [m        [32mbool[m loop = [31mtrue[m;[28;30H[K[29;1H[38;5;130m 29 [m        [38;5;130mwhile[m (loop) {[29;27H[K[30;1H[38;5;130m 30 [m                [34m//Get input[m
+[38;5;130m 31 [m                cout << [31m"$ "[m;[31;35H[K[32;1H[38;5;130m 32 [m                getline(cin, line);[32;40H[K[33;1H[38;5;130m 33 [m[33;5H[K[34;1H[38;5;130m 34 [m[9C       [34m//Input descriptor that can change[m
+[38;5;130m 35 [m[16Cpid_t savedInput = [31m0[m;
+[38;5;130m 36 [m               [36;21H[K[37;1H[38;5;130m 37 [m                [34m//Repeat until all commands have run[m[37;57H[K[38;1H[38;5;130m 38 [m                [32mbool[m commandLoop = [31mtrue[m;[38;45H[K[39;1H[38;5;130m 39 [m                [38;5;130mwhile[m (commandLoop) {[39;42H[K[40;1H[38;5;130m 40 [m                        [34m//Get the next command[m[40;52H[K[41;1H[38;5;130m 41 [m                        vector<string> command = readCommand(line);
+[38;5;130m 42 [m[42;5H[K[43;1H[38;5;130m 43 [m                        [34m//Format it to char ** for exec function arguments[m
+[38;5;130m 44 [m[24C[32mchar[m *commandName;
+[38;5;130m 45 [m                        [32mchar[m **execArgs = [38;5;130mnew[m [32mchar[m*[command.size()+[31m1[m];[46;176H1,1[11CTop[1;5H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[1;1H[93m  1 [m[96m// Oliver Vazquez[m
+[93m  2 [m[96m// CS 3377 Unix S19[m
+[93m  3 [m[96m// 24 March 2019[m
+[93m  4 
+  5 [m[38;5;81m#include [m[95m<iostream>[m
+[93m  6 [m[38;5;81m#include [m[95m<string>[m
+[93m  7 [m[38;5;81m#include [m[95m<sstream>[m
+[93m  8 [m[38;5;81m#include [m[95m<vector>[m
+[93m  9 [m[38;5;81m#include [m[95m<cstdlib>[m
+[93m 10 [m[38;5;81m#include [m[95m<unistd.h>[m
+[93m 11 [m[38;5;81m#include [m[95m<sys/wait.h>[m
+[93m 12 [m[38;5;81m#include [m[95m<fcntl.h>[

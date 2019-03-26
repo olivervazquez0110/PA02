@@ -1,0 +1,37 @@
+
+
+In this assignment, you will develop a simple custom shell named 'myshell' using C/C++ programming language that supports the followings:
+
+1. Run a simple command, e.g. 'ls -l', by invoking the corresponding Unix utility program in the path defined by the PATH environment variable.
+
+2. Run several commands separated by ';' sequentially, e.g. "clear; ls -l"
+
+3. Run up to three commands connected via pipes, e.g. "ls | grep "^d" | wc -l"
+
+Hint:
+
+If there are two commands in pipe, the parent gets the command (for example, "ls | wc -l") and recognizes that there are two commands that need to be connected via a pipe. Thus it will have a pipe to be shared, and then fork a child process (to do "ls") which will fork its child process (to do "wc -l") with the pipe shared (so that the output of one process doing "ls" will be input to the input of the other process doing "wc -l"). Meanwhile the parent waits till all the child processes are terminated, and then back to the loop for the next command from the user. Extending the shell for two commands in pipe, your shell should handle up to "three commands in pipe" (for example, "ls | grep ".c" | sort").
+
+4. Can handle file redirection (< input, > output, >> append)
+
+Hint. You may use dup or dup2 to redirect the file input or output for the given command ("ls") which a child process will execute (with exec). 
+
+Note: do not use "system" call in this programming assignment. Your program does not have to tokenize the command lines inputted by a user, but must correctly recognize commands (e.g. ls), and special symbols (e.g. '|', ';', '>', etc..).
+
+Submission:
+
+Submit a zip file containing
+
+1. Source code 
+
+2. Output captured by the script command showing that your program was compiled without errors, and an executable was generated successfully.
+
+3. an executable, myshell.cs1 if compiled on cs1, or myshell.distro if compiled on your Linux distro.
+
+4. Test runs output captured by the script command showing that your shell supports the required features described above.
+
+4. Extras, e.g. Makefile if make was used.
+
+Name your zip file using the convention for programming assignments, i.e.   PA03_<YourFirstName>-<YourLastName>.zip
+
+Post to the class forums or email me if there are any questions.

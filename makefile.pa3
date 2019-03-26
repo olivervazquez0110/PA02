@@ -1,0 +1,3 @@
+# build an executable
+all:
+	g++ Assignment3.cpp -o assignment3

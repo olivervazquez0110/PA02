@@ -1,0 +1,82 @@
+Script started on 2019-03-25 22:34:46-0500
+]0;true-mex@oliver-laptop: ~/Desktop/Unix/Projects/3[01;32mtrue-mex@oliver-laptop[00m:[01;34m~/Desktop/Unix/Projects/3[00m$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mPA_GitHub.typescript[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;true-mex@oliver-laptop: ~/Desktop/Unix/Projects/3[01;32mtrue-mex@oliver-laptop[00m:[01;34m~/Desktop/Unix/Projects/3[00m$ cd ..
+]0;true-mex@oliver-laptop: ~/Desktop/Unix/Projects[01;32mtrue-mex@oliver-laptop[00m:[01;34m~/Desktop/Unix/Projects[00m$ cd 2
+]0;true-mex@oliver-laptop: ~/Desktop/Unix/Projects/2[01;32mtrue-mex@oliver-laptop[00m:[01;34m~/Desktop/Unix/Projects/2[00m$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+]0;true-mex@oliver-laptop: ~/Desktop/Unix/Projects/2[01;32mtrue-mex@oliver-laptop[00m:[01;34m~/Desktop/Unix/Projects/2[00m$ script -a PA[K[K[K[K[K[K[K[K[K[K[K[Krm -r.[K .git
+rm: remove write-protected regular file '.git/objects/e2/afff51e8fb1aac4520f663a0231f54c3fc8170'? y
+rm: remove write-protected regular file '.git/objects/13/00d7c47ab3dc6c53c902cbd029589bd98183cc'? rf
+rm: cannot remove '.git/objects/13': Directory not empty
+rm: remove write-protected regular file '.git/objects/35/f35b7155a27a48dbd2f1bc7cc177299d4fa571'? ^[^C
+]0;true-mex@oliver-laptop: ~/Desktop/Unix/Projects/2[01;32mtrue-mex@oliver-laptop[00m:[01;34m~/Desktop/Unix/Projects/2[00m$ rm -r .gitf .git
+]0;true-mex@oliver-laptop: ~/Desktop/Unix/Projects/2[01;32mtrue-mex@oliver-laptop[00m:[01;34m~/Desktop/Unix/Projects/2[00m$ clera
+
+Command 'clera' not found, did you mean:
+
+  command 'clear' from deb ncurses-bin
+
+Try: sudo apt install <deb name>
+
+]0;true-mex@oliver-laptop: ~/Desktop/Unix/Projects/2[01;32mtrue-mex@oliver-laptop[00m:[01;34m~/Desktop/Unix/Projects/2[00m$ clear
+[3J[H[2J]0;true-mex@oliver-laptop: ~/Desktop/Unix/Projects/2[01;32mtrue-mex@oliver-laptop[00m:[01;34m~/Desktop/Unix/Projects/2[00m$ git in[K[K[K[K[K[Kscript PA_Githu[K[KHub.typescript
+Script started, file is PA_GitHub.typescript
+]0;true-mex@oliver-laptop: ~/Desktop/Unix/Projects/2[01;32mtrue-mex@oliver-laptop[00m:[01;34m~/Desktop/Unix/Projects/2[00m$ git int[Kit
+Initialized empty Git repository in /home/oliver/Desktop/Unix/Projects/2/.git/
+]0;true-mex@oliver-laptop: ~/Desktop/Unix/Projects/2[01;32mtrue-mex@oliver-laptop[00m:[01;34m~/Desktop/Unix/Projects/2[00m$ git add .
+]0;true-mex@oliver-laptop: ~/Desktop/Unix/Projects/2[01;32mtrue-mex@oliver-laptop[00m:[01;34m~/Desktop/Unix/Projects/2[00m$ git commit -m "Initial P[KCommit"
+[master (root-commit) d2cbdd0] Initial Commit
+ 11 files changed, 174 insertions(+)
+ create mode 100644 .makefile.pa2.swp
+ create mode 100644 PA02_Oliver-VazquezChavez.zip
+ create mode 100644 PA_GitHub.typescript
+ create mode 100755 filecnt
+ create mode 100644 filecnt.c
+ create mode 100755 filedisp
+ create mode 100644 filedisp.c
+ create mode 100644 instructions.txt
+ create mode 100644 makefile.pa2
+ create mode 100644 pa2.typescript
+ create mode 100644 program_documentation.docx
+]0;true-mex@oliver-laptop: ~/Desktop/Unix/Projects/2[01;32mtrue-mex@oliver-laptop[00m:[01;34m~/Desktop/Unix/Projects/2[00m$ git remote add origin https://github.com/oliveervazquez0110/pa03.git
+]0;true-mex@oliver-laptop: ~/Desktop/Unix/Projects/2[01;32mtrue-mex@oliver-laptop[00m:[01;34m~/Desktop/Unix/Projects/2[00m$ git push -u origin master
+Username for 'https://github.com': olivervazquez37       squez0110    37@gmail.com
+Password for 'https://olivervasquez37@gmail.com@github.com': 
+Counting objects: 13, done.
+Delta compression using up to 4 threads.
+Compressing objects:   8% (1/12)   Compressing objects:  16% (2/12)   Compressing objects:  25% (3/12)   Compressing objects:  33% (4/12)   Compressing objects:  41% (5/12)   Compressing objects:  50% (6/12)   Compressing objects:  58% (7/12)   Compressing objects:  66% (8/12)   Compressing objects:  75% (9/12)   Compressing objects:  83% (10/12)   Compressing objects:  91% (11/12)   Compressing objects: 100% (12/12)   Compressing objects: 100% (12/12), done.
+Writing objects:   7% (1/13)   Writing objects:  15% (2/13)   Writing objects:  30% (4/13)   Writing objects:  38% (5/13)   Writing objects:  46% (6/13)   Writing objects:  53% (7/13)   Writing objects:  61% (8/13)   Writing objects:  69% (9/13)   Writing objects:  76% (10/13)   Writing objects:  84% (11/13)   Writing objects:  92% (12/13)   Writing objects: 100% (13/13)   Writing objects: 100% (13/13), 25.64 KiB | 5.13 MiB/s, done.
+Total 13 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), done.[K
+To https://github.com/olivervazquez0110/pa03.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+]0;true-mex@oliver-laptop: ~/Desktop/Unix/Projects/2[01;32mtrue-mex@oliver-laptop[00m:[01;34m~/Desktop/Unix/Projects/2[00m$ cd ..
+]0;true-mex@oliver-laptop: ~/Desktop/Unix/Projects[01;32mtrue-mex@oliver-laptop[00m:[01;34m~/Desktop/Unix/Projects[00m$ cd 3
+]0;true-mex@oliver-laptop: ~/Desktop/Unix/Projects/3[01;32mtrue-mex@oliver-laptop[00m:[01;34m~/Desktop/Unix/Projects/3[00m$ git inti
+git: 'inti' is not a git command. See 'git --help'.
+
+The most similar command is
+	init
+]0;true-mex@oliver-laptop: ~/Desktop/Unix/Projects/3[01;32mtrue-mex@oliver-laptop[00m:[01;34m~/Desktop/Unix/Projects/3[00m$ git init
+Reinitialized existing Git repository in /home/oliver/Desktop/Unix/Projects/3/.git/
+]0;true-mex@oliver-laptop: ~/Desktop/Unix/Projects/3[01;32mtrue-mex@oliver-laptop[00m:[01;34m~/Desktop/Unix/Projects/3[00m$ git add . 
+]0;true-mex@oliver-laptop: ~/Desktop/Unix/Projects/3[01;32mtrue-mex@oliver-laptop[00m:[01;34m~/Desktop/Unix/Projects/3[00m$ git commit -m "Inital [K[K[Kial COmit[K[K[K[Kommit"
+[master f20cd1b] Initial Commit
+ 1 file changed, 59 insertions(+)
+ create mode 100644 PA_GitHub.typescript
+]0;true-mex@oliver-laptop: ~/Desktop/Unix/Projects/3[01;32mtrue-mex@oliver-laptop[00m:[01;34m~/Desktop/Unix/Projects/3[00m$ git commit -m "Initial Commit"add . [K[2Pinitti[4Pcd 3..git push -u origin masterremote add origin https://github.com/oliveervazquez0110/pa03.git[A]0;true-mex@oliver-laptop: ~/Desktop/Unix/Projects/3[01;32mtrue-mex@oliver-laptop[00m:[01;34m~/Desktop/Unix/Projects/3[00m$ [C[C[C[C[15Pcommit -m "Initial Commit"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cremote add origin https://github.com/oliveervazquez0110/pa03.git[A]0;true-mex@oliver-laptop: ~/Desktop/Unix/Projects/3[01;32mtrue-mex@oliver-laptop[00m:[01;34m~/Desktop/Unix/Projects/3[00m$ [C[C[C[C[20Ppush -u origin master
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cremote add origin https://github.com/oliveervazquez0110/pa03.gitgit remote add origin https://github.com/olivervazquez0110/pa02.git[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[
